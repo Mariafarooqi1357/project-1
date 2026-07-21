@@ -3,19 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Home | Beautiful Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1> Welcome to our Website</h1>
-     <img src="images.jfif" alt="Company Logo" width="900" height="600">
-    <hr
-    <h4> This is a simple website created for demonstration purposes. </h4>
-    <h5><b>You can explore the different sections of the website using the navigation menu</b></h5>
-    <nav>
-        <ul>
-            <li><a href="https://www.google.com" target="_blank">Home</a></li>
-            <li><a href="https://www.tiktok.com/about" target="_blank">About</a></li>
-            <li><a href="https://www.google.com" target="_blank">Contact</a></li>
-        </ul>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="exe.html">Bright Studio</a>
+      <nav class="nav-links">
+        <a href="exe.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Build a beautiful website with confidence</h1>
+          <p>Welcome to Bright Studio — a polished web experience that looks great on every device and keeps your visitors engaged.</p>
+          <div class="cta-group">
+            <a class="button primary" href="contact.html">Get in touch</a>
+            <a class="button secondary" href="about.html">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images.jfif" alt="Bright website concept">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Welcome to our website</h2>
+      <p>This is a clean, modern landing page designed to highlight your message, showcase features, and make navigation easy for visitors.</p>
+      <div class="features-grid">
+        <article class="feature">
+          <h3>Modern design</h3>
+          <p>Soft shadows, fresh spacing, and clear typography make your site feel professional and inviting.</p>
+        </article>
+        <article class="feature">
+          <h3>Easy navigation</h3>
+          <p>The menu links take visitors to every page of the site with a simple and intuitive layout.</p>
+        </article>
+        <article class="feature">
+          <h3>Responsive layout</h3>
+          <p>Every part of the website scales smoothly from large desktop screens to small mobile displays.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="testimonial">
+        <p>"This website structure feels polished, accessible, and ready for real content. The balance of whitespace and typography makes it easy to read and delightful to explore."</p>
+        <cite>— Your brand partner</cite>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer-grid">
+      <p>© 2026 Bright Studio. Crafted for a beautiful website experience.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
