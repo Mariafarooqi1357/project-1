@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+</head>
+<body>
+    <h1> Welcome to my homepage! </h1>
+
+    <img src="cat.JPG" alt="Cat picture" width="600" height="600">
+<br></br>
+
+
+<hr>
+    <form >
+        <input type="username" placeholder="Enter your name">  
+        <input type="password" placeholder="Enter your password">
+        <input type="checkbox" value="JS" name="JS">JS
+        <input type="checkbox" value="Python" name="Python">Python
+        <input type="checkbox" value="Java" name="Java">Java
+       
+        <label>
+            <input type="radio" value="male" name="">Male
+        </label>gender
+        <label>
+            <input type="radio" value="female" name="gender">Female
+
+    </form>
+
+
+</body>
+</head>
